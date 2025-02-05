@@ -30,5 +30,21 @@ namespace Mes
             txtFinalAuto.Text = monthCalendar1.SelectionEnd.ToShortDateString();
             txtAtualAuto.Text = monthCalendar1.TodayDate.ToShortDateString();
         }
+
+        private void Menu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem.Name.ToString() == "Fechar")
+            {
+                this.Close();
+            }
+            else if(e.ClickedItem.Name.ToString() == "Restaurar")
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if(e.ClickedItem.Name.ToString() == "Mensagem")
+            {
+                MessageBox.Show("Você está lendo uma mensagem.","Informação",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+        }
     }
 }

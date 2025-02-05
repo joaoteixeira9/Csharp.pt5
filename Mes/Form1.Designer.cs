@@ -55,7 +55,7 @@
             // monthCalendar1
             // 
             this.monthCalendar1.BackColor = System.Drawing.SystemColors.Control;
-            this.monthCalendar1.Location = new System.Drawing.Point(160, 135);
+            this.monthCalendar1.Location = new System.Drawing.Point(158, 65);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.ShowTodayCircle = false;
             this.monthCalendar1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 170);
+            this.label1.Location = new System.Drawing.Point(416, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(418, 199);
+            this.label2.Location = new System.Drawing.Point(416, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(418, 229);
+            this.label3.Location = new System.Drawing.Point(416, 159);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 5;
@@ -95,21 +95,21 @@
             // 
             // textBoxInicial
             // 
-            this.textBoxInicial.Location = new System.Drawing.Point(500, 169);
+            this.textBoxInicial.Location = new System.Drawing.Point(498, 99);
             this.textBoxInicial.Name = "textBoxInicial";
             this.textBoxInicial.Size = new System.Drawing.Size(100, 20);
             this.textBoxInicial.TabIndex = 2;
             // 
             // textBoxFinal
             // 
-            this.textBoxFinal.Location = new System.Drawing.Point(500, 198);
+            this.textBoxFinal.Location = new System.Drawing.Point(498, 128);
             this.textBoxFinal.Name = "textBoxFinal";
             this.textBoxFinal.Size = new System.Drawing.Size(100, 20);
             this.textBoxFinal.TabIndex = 4;
             // 
             // textBoxAtual
             // 
-            this.textBoxAtual.Location = new System.Drawing.Point(500, 228);
+            this.textBoxAtual.Location = new System.Drawing.Point(498, 158);
             this.textBoxAtual.Name = "textBoxAtual";
             this.textBoxAtual.Size = new System.Drawing.Size(100, 20);
             this.textBoxAtual.TabIndex = 6;
@@ -119,7 +119,7 @@
             this.btnSelecionarData.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnSelecionarData.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSelecionarData.ForeColor = System.Drawing.Color.White;
-            this.btnSelecionarData.Location = new System.Drawing.Point(421, 271);
+            this.btnSelecionarData.Location = new System.Drawing.Point(419, 201);
             this.btnSelecionarData.Name = "btnSelecionarData";
             this.btnSelecionarData.Size = new System.Drawing.Size(179, 26);
             this.btnSelecionarData.TabIndex = 7;
@@ -131,7 +131,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(157, 377);
+            this.label4.Location = new System.Drawing.Point(155, 307);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 10;
@@ -141,7 +141,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(157, 347);
+            this.label5.Location = new System.Drawing.Point(155, 276);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 16);
             this.label5.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(157, 318);
+            this.label6.Location = new System.Drawing.Point(155, 247);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 8;
@@ -159,27 +159,28 @@
             // 
             // txtInicialAuto
             // 
-            this.txtInicialAuto.Location = new System.Drawing.Point(239, 317);
+            this.txtInicialAuto.Location = new System.Drawing.Point(237, 246);
             this.txtInicialAuto.Name = "txtInicialAuto";
             this.txtInicialAuto.Size = new System.Drawing.Size(100, 20);
             this.txtInicialAuto.TabIndex = 11;
             // 
             // txtAtualAuto
             // 
-            this.txtAtualAuto.Location = new System.Drawing.Point(239, 377);
+            this.txtAtualAuto.Location = new System.Drawing.Point(237, 306);
             this.txtAtualAuto.Name = "txtAtualAuto";
             this.txtAtualAuto.Size = new System.Drawing.Size(100, 20);
             this.txtAtualAuto.TabIndex = 13;
             // 
             // txtFinalAuto
             // 
-            this.txtFinalAuto.Location = new System.Drawing.Point(239, 347);
+            this.txtFinalAuto.Location = new System.Drawing.Point(237, 276);
             this.txtFinalAuto.Name = "txtFinalAuto";
             this.txtFinalAuto.Size = new System.Drawing.Size(100, 20);
             this.txtFinalAuto.TabIndex = 12;
             // 
             // IconeCalendario
             // 
+            this.IconeCalendario.ContextMenuStrip = this.Menu;
             this.IconeCalendario.Icon = ((System.Drawing.Icon)(resources.GetObject("IconeCalendario.Icon")));
             this.IconeCalendario.Text = "IconeCalendario";
             this.IconeCalendario.Visible = true;
@@ -193,6 +194,7 @@
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(181, 92);
             this.Menu.Text = "Menu";
+            this.Menu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menu_ItemClicked);
             // 
             // Restaurar
             // 
